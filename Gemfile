@@ -72,7 +72,7 @@ group :development, :test do
   gem 'rubocop-rspec_rails', '~> 2.31.0', require: false
 
   # Testing framework [https://rspec.info/]
-  gem 'rspec-rails', '~> 6.0'
+  gem 'rspec-rails', '~> 8.0'
 end
 
 group :development do
