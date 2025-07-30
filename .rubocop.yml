@@ -1,0 +1,18 @@
+plugins:
+  - rubocop-capybara
+  - rubocop-factory_bot
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-rspec_rails
+
+AllCops:
+  EnabledByDefault: true
+  TargetRubyVersion: 3.4
+
+#################################################################################
+# Style Cops                                                                    #
+#################################################################################
+Style/Copyright:
+  Enabled: false
