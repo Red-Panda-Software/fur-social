@@ -44,6 +44,9 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem 'brakeman', '~> 7.1.0', require: false
 
+  # Utility for loading ENV variables in test and development
+  gem 'dotenv', '~> 3.1.8'
+
   # Support for factories in tests
   gem 'factory_bot_rails', '~> 6.5.0'
 

@@ -398,6 +398,7 @@ DEPENDENCIES
   brakeman (~> 7.1.0)
   capybara (~> 3.40.0)
   debug (~> 1.11.0)
+  dotenv (~> 3.1.8)
   factory_bot_rails (~> 6.5.0)
   importmap-rails (~> 2.2.0)
   jbuilder (~> 2.13.0)
