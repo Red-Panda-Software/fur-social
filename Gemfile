@@ -88,6 +88,8 @@ group :test do
   gem 'capybara', '~> 3.40.0'
   # Gem for generating random test data
   gem 'faker', '~> 3.5.2'
+  # Formatter for test output on CircleCI
+  gem 'rspec_junit_formatter', '~> 0.6.0'
   # Webdriver for interacting with the browser.
   gem 'selenium-webdriver', '~> 4.34.0'
 end
