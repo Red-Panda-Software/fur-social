@@ -1,5 +1,7 @@
 # Fur Social
 
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Red-Panda-Software/fur-social/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Red-Panda-Software/fur-social/tree/main)
+
 Fur Social is a social platform created by/for furries across the world.
 The platform aims at brining the best elements of various existing social platforms into a single place, 
 with the addition of the following extra constraints:
