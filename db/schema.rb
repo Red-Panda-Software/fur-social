@@ -10,8 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 0) do
+ActiveRecord::Schema[8.0].define(version: 2025_07_31_105531) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
+  create_table "users", comment: "Tracks all user data", force: :cascade do |t|
+    t.string "nickname", limit: 25, null: false, comment: "The nickname to display for the user"
+    t.string "email", null: false, comment: "The email of the user, unique in the system"
+    t.string "password_digest", null: false, comment: "The encrypted password of the user"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["email"], name: "index_users_on_email", unique: true
+  end
 end
