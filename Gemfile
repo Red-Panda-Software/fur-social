@@ -51,7 +51,7 @@ group :development, :test do
   gem 'factory_bot_rails', '~> 6.5.0'
 
   # Static analysis for code quality
-  gem 'rubocop', '~> 1.79.0', require: false
+  gem 'rubocop', '~> 1.79.2', require: false
 
   # Rubocop plugin for capybara
   gem 'rubocop-capybara', '~> 2.22.1', require: false
